@@ -1,1 +1,2 @@
-Projeto Jogo Educacional - Primeiro arquivo do repositório.
+Projeto Jogo Educacional - Primeiro arquivo do repositório. - Ryan
+
