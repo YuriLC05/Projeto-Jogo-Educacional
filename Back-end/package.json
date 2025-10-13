@@ -1,0 +1,28 @@
+{
+  "name": "projeto-jogo-educacional",
+  "version": "1.0.0",
+  "description": "PR Como colaborador - Ryan",
+  "main": "index.js",
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriLC05/Projeto-Jogo-Educacional.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriLC05/Projeto-Jogo-Educacional/issues"
+  },
+  "homepage": "https://github.com/YuriLC05/Projeto-Jogo-Educacional#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
