@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background: url("../imagens/imgLogin.jpg") no-repeat center center fixed;
+  background-size: cover; 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#form {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.campo {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+.campo span {
+  margin-right: 8px;
+}
+
+.campo input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+a.botao {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a.botao:hover {
+  text-decoration: underline;
+}
